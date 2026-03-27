@@ -5,7 +5,7 @@ from rest_framework import serializers
 
 from elections.models import Candidate, Poll, PollPosition, Position, VotingStation
 
-
+#small update
 class VotingStationSerializer(serializers.ModelSerializer):
     registered_voter_count = serializers.ReadOnlyField()
     load_percentage = serializers.ReadOnlyField()
