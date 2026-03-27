@@ -2,7 +2,7 @@ from rest_framework import generics, status
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
-
+# small update
 from accounts.permissions import IsAdminOrReadOnlyVoter, IsAdminUser
 from elections.models import Candidate, Poll, Position, VotingStation
 from elections.serializers import (
